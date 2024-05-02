@@ -10,7 +10,8 @@ API básica desenvolvida em Java, utilizando Spring Boot, JPA (Spring Data JPA) 
 - MySQL Server instalado e em execução (com um banco de dados vazio criado)
 
 ### Configuração do Banco de Dados
-1. Crie um banco de dados MySQL vazio com um nome de sua escolha.
+1. Crie um banco de dados MySQL vazio com um nome `db_locadora`.
+Ou apenas execute o script SQL "DB", contido na raíz do projeto.
 
 ### Configuração da Aplicação
 1. Clone ou faça o download do repositório.
@@ -20,7 +21,6 @@ API básica desenvolvida em Java, utilizando Spring Boot, JPA (Spring Data JPA) 
 ### Execução da Aplicação
 1. Navegue até o diretório raiz do projeto.
 2. Execute o seguinte comando no terminal:
-
 ```cmd
 mvn spring-boot:run
 ```
