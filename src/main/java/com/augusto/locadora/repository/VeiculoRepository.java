@@ -1,6 +1,6 @@
-package com.augusto.revenda.repository;
+package com.augusto.locadora.repository;
 
-import com.augusto.revenda.model.Veiculo;
+import com.augusto.locadora.model.Veiculo;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

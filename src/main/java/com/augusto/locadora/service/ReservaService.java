@@ -1,11 +1,11 @@
-package com.augusto.revenda.service;
+package com.augusto.locadora.service;
 
-import com.augusto.revenda.model.Cliente;
-import com.augusto.revenda.model.Reserva;
-import com.augusto.revenda.model.Veiculo;
-import com.augusto.revenda.repository.ClienteRepository;
-import com.augusto.revenda.repository.ReservaRepository;
-import com.augusto.revenda.repository.VeiculoRepository;
+import com.augusto.locadora.model.Cliente;
+import com.augusto.locadora.model.Reserva;
+import com.augusto.locadora.model.Veiculo;
+import com.augusto.locadora.repository.ClienteRepository;
+import com.augusto.locadora.repository.ReservaRepository;
+import com.augusto.locadora.repository.VeiculoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,5 +1,4 @@
-package com.augusto.revenda.model;
-
+package com.augusto.locadora.model;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.AllArgsConstructor;
@@ -15,26 +14,23 @@ import java.util.Set;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Cliente {
+public class Veiculo {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     @Column(nullable = false)
-    private String nome;
+    private String modelo;
 
     @Column(nullable = false, unique = true)
-    private String CPF;
+    private String placa;
 
     @Column(nullable = false)
-    private String endereco;
+    private int ano;
 
-    @Column(nullable = false)
-    private String telefone;
-
-    @OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
-    @JsonManagedReference("clienteReference")
+    @OneToMany(mappedBy = "veiculo", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
+    @JsonManagedReference("veiculoReference")
     private Set<Reserva> reservas;
 
 }

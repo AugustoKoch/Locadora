@@ -1,10 +1,10 @@
-package com.augusto.revenda;
+package com.augusto.locadora;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RevendaApplicationTests {
+class LocadoraApplicationTests {
 
 	@Test
 	void contextLoads() {

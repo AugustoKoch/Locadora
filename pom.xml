@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.augusto</groupId>
-	<artifactId>revenda</artifactId>
+	<artifactId>locadora</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>revenda</name>
 	<description>Projeto para revenda de carros</description>

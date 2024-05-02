@@ -1,7 +1,7 @@
-package com.augusto.revenda.controller;
+package com.augusto.locadora.controller;
 
-import com.augusto.revenda.model.Reserva;
-import com.augusto.revenda.service.ReservaService;
+import com.augusto.locadora.model.Reserva;
+import com.augusto.locadora.service.ReservaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

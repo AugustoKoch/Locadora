@@ -1,4 +1,4 @@
-package com.augusto.revenda.model;
+package com.augusto.locadora.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.AllArgsConstructor;
